@@ -10,7 +10,7 @@ cd DM
 ```
 
 ### 2️⃣ Descargar Dataset (3 minutos)
-Ve a: **https://www.kaggle.com/datasets/usgs/earthquake-database**
+Ve a: **https://inacapmailcl-my.sharepoint.com/:f:/g/personal/paulo_taipe_inacapmail_cl/EmSLtERmpmxHqvlbQfAOMucBpdKvON2jUXe-QrqvHC4Xgw?e=G3VAGW**
 
 Descarga `Earthquakes_USGS.csv` → Coloca en `data\raw\`
 
