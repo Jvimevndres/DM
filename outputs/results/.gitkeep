@@ -1,0 +1,3 @@
+# Esta carpeta contendrá los resultados del análisis
+# - 5 archivos de estadísticas (TXT)
+# - Subcarpeta models/ con 5 modelos ML (PKL)

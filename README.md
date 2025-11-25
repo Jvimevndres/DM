@@ -23,8 +23,11 @@ Este proyecto incluye:
 DM/
 ├── data/
 │   ├── raw/                    # Dataset original (NO incluido en repo)
+│   │   ├── .gitkeep            # Mantiene carpeta en Git
+│   │   ├── README.md           # Instrucciones de descarga
 │   │   └── Earthquakes_USGS.csv (1.89 GB - descargar manualmente)
 │   └── processed/              # Datos limpios (generados por pipeline)
+│       ├── .gitkeep            # Mantiene carpeta en Git
 │       └── earthquakes_clean.csv (1.6 GB - 3.88M registros)
 ├── scripts/
 │   ├── python/                 # Scripts de análisis Python
@@ -39,15 +42,18 @@ DM/
 │   └── earthquakes_analysis_colab.ipynb  # Notebook Google Colab
 ├── outputs/
 │   ├── figures/                # 16 visualizaciones PNG (300 DPI)
+│   │   ├── .gitkeep            # Mantiene carpeta en Git
 │   │   ├── [12 gráficos Python]
 │   │   └── [4 mapas mundiales R]
 │   └── results/                # Resultados y modelos
+│       ├── .gitkeep            # Mantiene carpeta en Git
 │       ├── basic_statistics.txt
 │       ├── temporal_analysis.txt
 │       ├── geographic_analysis.txt
 │       ├── correlation_analysis.txt
 │       ├── extreme_events.txt
 │       └── models/             # 5 modelos ML (.pkl)
+│           └── .gitkeep        # Mantiene carpeta en Git
 ├── docs/
 │   ├── GUIA_EJECUCION.md
 │   ├── ESTRUCTURA_PRESENTACION.md

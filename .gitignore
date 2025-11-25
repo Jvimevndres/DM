@@ -41,12 +41,19 @@ venv.bak/
 # Data files (opcional - comenta si quieres versionar el dataset)
 data/raw/*.csv
 data/processed/*.csv
+# Mantener las carpetas con .gitkeep
+!data/raw/.gitkeep
+!data/processed/.gitkeep
 
 # Output files (opcional - comenta si quieres versionar resultados)
 outputs/figures/*.png
 outputs/results/*.txt
 outputs/results/*.csv
 outputs/results/models/*.pkl
+# Mantener las carpetas con .gitkeep
+!outputs/figures/.gitkeep
+!outputs/results/.gitkeep
+!outputs/results/models/.gitkeep
 
 # IDE
 .vscode/

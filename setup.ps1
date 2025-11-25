@@ -91,10 +91,10 @@ if ($rscriptPath) {
 }
 
 # ==============================================================================
-# PASO 4: Crear estructura de directorios
+# PASO 4: Verificar estructura de directorios
 # ==============================================================================
 Write-Host ""
-Write-Host "[4/4] Creando estructura de directorios..." -ForegroundColor Yellow
+Write-Host "[4/4] Verificando estructura de directorios..." -ForegroundColor Yellow
 
 $directories = @(
     "data\raw",
@@ -104,14 +104,19 @@ $directories = @(
     "outputs\results\models"
 )
 
+$allExist = $true
 foreach ($dir in $directories) {
     if (-not (Test-Path $dir)) {
-        New-Item -ItemType Directory -Force -Path $dir | Out-Null
-        Write-Host "  Creado: $dir" -ForegroundColor Gray
+        Write-Host "  WARNING: Falta directorio $dir" -ForegroundColor Yellow
+        $allExist = $false
     }
 }
 
-Write-Host "  OK Directorios creados" -ForegroundColor Green
+if ($allExist) {
+    Write-Host "  OK Estructura de directorios correcta" -ForegroundColor Green
+} else {
+    Write-Host "  NOTA: Algunos directorios faltan (se crearán automáticamente al ejecutar)" -ForegroundColor Gray
+}
 
 # ==============================================================================
 # RESUMEN FINAL

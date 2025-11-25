@@ -1,0 +1,6 @@
+# Esta carpeta contendrá los modelos de Machine Learning entrenados
+# - regresion_lineal_simple.pkl
+# - regresion_lineal_multiple.pkl
+# - kmeans_clusters.pkl
+# - pca_model.pkl
+# - elbow_inertias.pkl
