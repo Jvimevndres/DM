@@ -87,7 +87,7 @@ if ($rscriptPath) {
 } else {
     Write-Host "  WARNING R no está instalado (opcional)" -ForegroundColor Yellow
     Write-Host "  Los mapas NO se generarán sin R" -ForegroundColor Yellow
-    Write-Host "  Descarga R desde: https://cran.r-project.org/bin/windows/base/" -ForegroundColor Gray
+    Write-Host "  Descarga R desde: https://inacapmailcl-my.sharepoint.com/:f:/g/personal/paulo_taipe_inacapmail_cl/EmSLtERmpmxHqvlbQfAOMucBpdKvON2jUXe-QrqvHC4Xgw?e=G3VAGW" -ForegroundColor Gray
 }
 
 # ==============================================================================
@@ -131,7 +131,7 @@ Write-Host ""
 Write-Host "  1. Descarga el dataset:" -ForegroundColor Yellow
 Write-Host "     - Archivo: Earthquakes_USGS.csv" -ForegroundColor White
 Write-Host "     - Ubicación: data\raw\Earthquakes_USGS.csv" -ForegroundColor White
-Write-Host "     - Link: https://www.kaggle.com/datasets/usgs/earthquake-database" -ForegroundColor Cyan
+Write-Host "     - Link: https://inacapmailcl-my.sharepoint.com/:f:/g/personal/paulo_taipe_inacapmail_cl/EmSLtERmpmxHqvlbQfAOMucBpdKvON2jUXe-QrqvHC4Xgw?e=G3VAGW" -ForegroundColor Cyan
 Write-Host ""
 Write-Host "  2. Ejecuta el análisis completo:" -ForegroundColor Yellow
 Write-Host "     .\run_all.ps1" -ForegroundColor White
